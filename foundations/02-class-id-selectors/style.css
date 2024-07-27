@@ -1,19 +1,18 @@
-p:nth-child(odd) {
+.odd {
     background-color: #e0869d;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
 
-div:nth-child(2) {
-    color: rgb(45, 47, 192);
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#two {
+    color: blue;
     font-size: 36px;
 }
 
-p:nth-child(3) {
-    font-size: 24px;
-}
-
-div:nth-child(4) {
-    background-color:rgb(87, 228, 87);
-    font-size: 24px;
+#four {
+    background-color: lightgreen;
     font-weight: bold;
 }
